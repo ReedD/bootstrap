@@ -47,7 +47,7 @@ attributes.
 This affects both popovers and tooltips. The *triggers are now set up
 once* and can no longer be changed after initialization.
 
-* `dropdown` and `dropdown-toggle` are attribute-only directives. ([192768e1](http://github.com/angular-ui/bootstrap/commit/192768e109b5c4a50c7dcd320e09d05fedd4298a))
+* `dropdown` and `dropdown-toggle` are attribute-only directives. `dropdown-toggle` is no longer needed on any dropdown menu items and should be removed. ([192768e1](http://github.com/angular-ui/bootstrap/commit/192768e109b5c4a50c7dcd320e09d05fedd4298a))
 
   Before:
     ```html
